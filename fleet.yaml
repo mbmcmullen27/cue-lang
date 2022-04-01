@@ -1,0 +1,6 @@
+name: test
+helm:
+  values:
+    url: localhost
+kustomize:
+  dir: ./ 
