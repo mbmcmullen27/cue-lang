@@ -1,8 +1,7 @@
 #fleet: {
-
   kustomize?: {
-    dir: string
-  },
+    dir: string & =~"^(\\./)?([a-zA-Z_\\-0-9]+/?)+$"
+  }
 
   helm?: {
     values: {...}

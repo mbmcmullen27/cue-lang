@@ -3,4 +3,8 @@ helm:
   values:
     url: localhost
 kustomize:
-  dir: ./ 
+  # dir: ./
+  # dir: path/to/something
+  # dir: bad\path/to/nothing
+  dir: mixed_case/Path/with-SYMBOLS/and/numbers10/9/22
+  # dir: 10 # type mismatch
