@@ -1,7 +1,7 @@
 import "list"
 import "strconv"
 
-num: string @tag(i)
+num: *"5" |string @tag(i)
 el: list.Repeat([ {...} ], strconv.Atoi(num))
 
 List:{
